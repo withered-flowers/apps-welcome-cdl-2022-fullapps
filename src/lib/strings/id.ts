@@ -22,6 +22,12 @@ export let countdown_event_string5_faq1: string = `Ada pertanyaan? Silahkan baca
 export let countdown_event_string5_faq2: string = `Pertanyaan Umum`;
 export let countdown_event_string5_faq3: string = `ini dulu yah.`;
 
+export let countdown_event_string8_validator1: string =
+  "Ingin mengecek progress Anda? Kunjungi ";
+export let countdown_event_string8_validator2: string =
+  "Pengecek Profil Publik";
+export let countdown_event_string8_validator3: string = " ini yah";
+
 export let countdown_event_string10_group1: string = `Masih buntu? Yuk join grup `;
 export let countdown_event_string10_group2: string = `Discord ${eventName}`;
 export let countdown_event_string10_group3: string = ` untuk menanyakan lebih lanjut.`;
