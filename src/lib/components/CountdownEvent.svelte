@@ -21,6 +21,10 @@
     countdown_event_string10_group2,
     countdown_event_string10_group3,
     countdown_event_string10_url,
+    countdown_event_string11_group1,
+    countdown_event_string11_group2,
+    countdown_event_string11_group3,
+    countdown_event_string11_url,
   } from "$lib/strings/id";
   import { checkEventEnded } from "$lib/utils/helper";
 
@@ -116,4 +120,12 @@
     class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
     >{countdown_event_string10_group2}</a
   >{countdown_event_string10_group3}
+</TextLine>
+
+<TextLine>
+  {countdown_event_string11_group1}<a
+    href="{countdown_event_string11_url}"
+    class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+    >{countdown_event_string11_group2}</a
+  >{countdown_event_string11_group3}
 </TextLine>

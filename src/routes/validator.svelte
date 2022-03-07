@@ -30,7 +30,9 @@
 {/if}
 
 {#if errors}
-  {errors}
+  <div class="mt-4 text-[#EA4325]">
+    {errors}
+  </div>
 {/if}
 
 {#if csbData}
@@ -54,7 +56,7 @@
           {#if csbData.tiers === 1}
             <span class="text-[#1aa260]">Selesai</span>
           {:else}
-            <span class="">Belum Selesai</span>
+            <span class="text-[#EA4325]">Belum Selesai</span>
           {/if}
         </p>
       </div>

@@ -15,6 +15,7 @@ Tech stack yang digunakan untuk membuat aplikasi ini adalah:
     Tailwind sebagai CSS Utility
     Day.js untuk pustaka pemanipulasi tanggal
     Netlify sebagai tempat hosting aplikasi ini dan functionsnya
+    Got dan Linkedom sebagai pustaka scraping situs cloudskillsboost
 
 Untuk menjalankan aplikasi ini, dapat dilakukan dengan cara:
 
