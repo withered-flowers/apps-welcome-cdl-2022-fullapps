@@ -14,10 +14,6 @@
     countdown_event_string5_faq1,
     countdown_event_string5_faq2,
     countdown_event_string5_faq3,
-    countdown_event_string8_validator1,
-    countdown_event_string8_validator2,
-    countdown_event_string8_validator3,
-    countdown_event_string8_validator_url,
     countdown_event_string10_group1,
     countdown_event_string10_group2,
     countdown_event_string10_group3,
@@ -101,14 +97,6 @@
     {countdown_event_string5_faq2}
   </a>
   {countdown_event_string5_faq3}
-</TextLine>
-
-<TextLine>
-  {countdown_event_string8_validator1}<a
-    href="/validator"
-    class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
-    >{countdown_event_string8_validator2}</a
-  >{countdown_event_string8_validator3}
 </TextLine>
 
 <TextLine>
