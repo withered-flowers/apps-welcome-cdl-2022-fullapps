@@ -3,5 +3,5 @@
   publish = "build/"
 
 [functions]
-  directory = "functions"
+  directory = "functions/"
   node_bundler = "esbuild"
