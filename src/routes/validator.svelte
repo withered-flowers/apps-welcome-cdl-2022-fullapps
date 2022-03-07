@@ -87,10 +87,29 @@
       </table>
     </div>
   </div>
+
+  {#if csbData.tiers === 1}
+    <div class="text-slate-500 mt-4">
+      <div class="animate-pulse text-[#1aa260]">
+        Selamat, Anda sudah menyelesaikan pelatihan !
+      </div>
+      <div>
+        Silahkan mengisi pada Form submission untuk mengirimkan data ke Kominfo
+        pada tautan berikut:
+      </div>
+      <div>
+        <a
+          href="https://komin.fo/cdl1-submission"
+          class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+          >CDL Submission</a
+        >
+      </div>
+    </div>
+  {/if}
 {/if}
 
 <TextLine>
   <a href="/" class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
-    >Kembali ke Countdown</a
+    >Kembali ke Halaman Utama</a
   >
 </TextLine>
