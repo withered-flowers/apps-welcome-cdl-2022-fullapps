@@ -19,7 +19,7 @@
         <span class="text-2xl mr-4">Q</span>{question.q}
       </p>
       <p class="text-slate-500">
-        <span class="text-2xl mr-4">A</span>{question.a}
+        <span class="text-2xl mr-4">A</span>{@html question.a}
       </p>
     </div>
   {/each}

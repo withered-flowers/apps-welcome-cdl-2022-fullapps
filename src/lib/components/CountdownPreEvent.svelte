@@ -5,7 +5,7 @@
 
   import { onMount, onDestroy } from "svelte";
   import { goto } from "$app/navigation";
-  import { eventTimeStart } from "$lib/configs/config.js";
+  import { eventTimeStart } from "$lib/configs/config";
   import {
     eventUrl,
     countdown_pre_event_string1_start,
@@ -54,27 +54,29 @@
 
 <div class="text-6xl text-center flex w-full items-center justify-center">
   <div class="w-24 mx-1 p-2 bg-white text-[#fbbc05] rounded-lg">
-    <div class="font-mono leading-none" x-text="days">{d}</div>
+    <div class="font-mono leading-none">{d}</div>
     <div class="font-mono uppercase text-sm leading-none">Hari</div>
   </div>
   <div class="w-24 mx-1 p-2 bg-white text-[#fbbc05] rounded-lg">
-    <div class="font-mono leading-none" x-text="hours">{h}</div>
+    <div class="font-mono leading-none">{h}</div>
     <div class="font-mono uppercase text-sm leading-none">Jam</div>
   </div>
   <div class="w-24 mx-1 p-2 bg-white text-[#fbbc05] rounded-lg">
-    <div class="font-mono leading-none" x-text="minutes">{m}</div>
+    <div class="font-mono leading-none">{m}</div>
     <div class="font-mono uppercase text-sm leading-none">Menit</div>
   </div>
   <div class="text-2xl mx-1 font-extralight text-slate-500">dan</div>
   <div class="w-24 mx-1 p-2 bg-white text-[#fbbc05] rounded-lg">
-    <div class="font-mono leading-none" x-text="seconds">{s}</div>
+    <div class="font-mono leading-none">{s}</div>
     <div class="font-mono uppercase text-sm leading-none">Detik</div>
   </div>
 </div>
 
 <TextLine>
   {countdown_pre_event_string2_further1}
-  <a href={eventUrl} class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+  <a
+    href="{eventUrl}"
+    class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
     >{stripEventUrl}</a
   >
   {countdown_pre_event_string2_further2}

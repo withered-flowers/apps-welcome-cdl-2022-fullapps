@@ -42,7 +42,11 @@ export let faq_string1: string = `Pertanyaan Umum`;
 export let faq_string2_back_to_home: string = `Kembali ke Halaman Utama`;
 export let faq_array_of_string1_question: Array<QnA> = [
   {
-    q: "Loh isinya mana?",
-    a: "Maaf, dalam pengembangan 😆",
+    q: "Pelatihan ini butuh credit card?",
+    a: "Tidak. kalau butuh memasukkan credit card, artinya ada yang salah dengan langkah registrasimu. Dicek kembali yah.",
+  },
+  {
+    q: "Jadwal Pelatihannya dimana?",
+    a: "Bisa dicek di <a class='text-[#1aa260] hover:text-[#4285f4] hover:underline' href='/schedule'>Jadwal Pelatihan</a>",
   },
 ];

@@ -4,7 +4,7 @@
   import dayjs from "dayjs";
 
   import { onMount, onDestroy } from "svelte";
-  import { eventTimeEnd } from "$lib/configs/config.js";
+  import { eventTimeEnd } from "$lib/configs/config";
   import {
     eventUrl,
     countdown_event_string1_start,
