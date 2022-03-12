@@ -16,16 +16,40 @@
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
     },
     {
+      name: "Sharing Session I",
+      date: "12 Maret 2022, 19.00 WIB ",
+      liveUrl: "https://www.youtube.com/watch?v=ZQl4keS-M6c",
+      absentUrl: "",
+    },
+    {
       name: "Networking and Security in Google Cloud",
       date: "14 Maret 2022, 19.00 WIB",
       liveUrl: "https://www.youtube.com/watch?v=e1C8MaKjgqI",
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
     },
     {
+      name: "Sharing Session 2",
+      date: "15 Maret 2022, 19.00 WIB ",
+      liveUrl: "https://www.youtube.com/watch?v=1HNKRA6kJUQ",
+      absentUrl: "",
+    },
+    {
       name: "Calculate and Save Costs on Google Cloud",
       date: "16 Maret 2022, 19.00 WIB",
       liveUrl: "https://www.youtube.com/watch?v=Av2aDxRPpeQ",
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
+    },
+    {
+      name: "Sharing Session 3",
+      date: "17 Maret 2022, 19.00 WIB ",
+      liveUrl: "https://www.youtube.com/watch?v=T0yuI-5OYT4",
+      absentUrl: "",
+    },
+    {
+      name: "Sharing Session 4",
+      date: "18 Maret 2022, 19.00 WIB ",
+      liveUrl: "https://www.youtube.com/watch?v=FP_e2K_u72Y",
+      absentUrl: "",
     },
   ];
 </script>
@@ -54,13 +78,17 @@
               >Pertemuan {idx + 1}</a
             ></td
           >
-          <td class="border border-slate-600 text-center"
-            ><a
-              href="{sched.absentUrl}"
-              class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
-              >Absensi {idx + 1}</a
-            ></td
-          >
+          <td class="border border-slate-600 text-center">
+            {#if sched.absentUrl}
+              <a
+                href="{sched.absentUrl}"
+                class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+                >Absensi {idx + 1}</a
+              >
+            {:else}
+              <span>Tidak ada Absensi</span>
+            {/if}
+          </td>
         </tr>
       {/each}
     </tbody>
