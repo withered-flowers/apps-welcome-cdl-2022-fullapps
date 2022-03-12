@@ -16,7 +16,7 @@
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
     },
     {
-      name: "Sharing Session I",
+      name: "Sharing Session #1",
       date: "12 Maret 2022, 19.00 WIB ",
       liveUrl: "https://www.youtube.com/watch?v=ZQl4keS-M6c",
       absentUrl: "",
@@ -28,7 +28,7 @@
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
     },
     {
-      name: "Sharing Session 2",
+      name: "Sharing Session #2",
       date: "15 Maret 2022, 19.00 WIB ",
       liveUrl: "https://www.youtube.com/watch?v=1HNKRA6kJUQ",
       absentUrl: "",
@@ -40,13 +40,13 @@
       absentUrl: "https://komin.fo/presensi-pro22-cdl1",
     },
     {
-      name: "Sharing Session 3",
+      name: "Sharing Session #3",
       date: "17 Maret 2022, 19.00 WIB ",
       liveUrl: "https://www.youtube.com/watch?v=T0yuI-5OYT4",
       absentUrl: "",
     },
     {
-      name: "Sharing Session 4",
+      name: "Sharing Session #4",
       date: "18 Maret 2022, 19.00 WIB ",
       liveUrl: "https://www.youtube.com/watch?v=FP_e2K_u72Y",
       absentUrl: "",
@@ -86,7 +86,7 @@
                 >Absensi {idx + 1}</a
               >
             {:else}
-              <span>Tidak ada Absensi</span>
+              <span>Tidak Diperlukan</span>
             {/if}
           </td>
         </tr>
