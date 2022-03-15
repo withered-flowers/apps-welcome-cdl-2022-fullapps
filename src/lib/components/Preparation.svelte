@@ -15,6 +15,8 @@
   marginwidth="0">Loading…</iframe
 >
 
+<p class="mt-4 text-slate-500">(Credits: Angga Agia #ShadowModerator)</p>
+
 <TextLine>
   <a
     class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
