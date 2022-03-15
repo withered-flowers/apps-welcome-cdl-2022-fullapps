@@ -57,6 +57,13 @@
 <TextHeader>Jadwal Pelatihan</TextHeader>
 
 <div class="flex flex-col text-left font-mono text-sm divide-y-4 max-w-4xl">
+  <h1 class="text-md text-center mb-2">
+    <a
+      href="https://k-cloud.kominfo.go.id/s/Joy6xrLnQw7t7cJ"
+      class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
+      >Daftar Peserta Cek di sini !</a
+    >
+  </h1>
   <table class="table table-auto border-separate">
     <thead>
       <tr>

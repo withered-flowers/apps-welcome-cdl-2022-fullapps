@@ -49,4 +49,8 @@ export let faq_array_of_string1_question: Array<QnA> = [
     q: "Jadwal Pelatihannya dimana?",
     a: "Bisa dicek di <a class='text-[#1aa260] hover:text-[#4285f4] hover:underline' href='/schedule'>Jadwal Pelatihan</a>",
   },
+  {
+    q: "Latihan Soalnya ada dimana?",
+    a: "Bisa dicek di <a class='text-[#1aa260] hover:text-[#4285f4] hover:underline' href='/preparation'>Latihan Soal</a>",
+  },
 ];
