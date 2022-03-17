@@ -1,5 +1,5 @@
 export const eventTimeStart: string = "2022-03-07T00:00:00.000+07:00";
-export const eventTimeEnd: string = "2022-03-16T23:59:59.000+07:00";
+export const eventTimeEnd: string = "2022-03-26T23:59:59.000+07:00";
 
 export const LIST_OF_QUESTS: string[] = [
   "Introduction to Digital Transformation with Google Cloud",
@@ -8,7 +8,7 @@ export const LIST_OF_QUESTS: string[] = [
   "Understanding Google Cloud Security and Operations",
 ];
 
-export const DATE_RANGE: string[] = ["2022-03-07", "2022-03-16"];
+export const DATE_RANGE: string[] = ["2022-03-07", "2022-03-26"];
 
 export const TIERS: number[] = [4];
 
