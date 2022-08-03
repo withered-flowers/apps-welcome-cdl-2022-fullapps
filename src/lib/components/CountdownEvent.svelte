@@ -83,7 +83,7 @@
     <div class="font-mono uppercase text-sm leading-none">Detik</div>
   </div>
 </div>
-
+<!-- 
 <TextLine>
   {countdown_event_string2_further1}
   <a
@@ -92,19 +92,19 @@
     >{stripEventUrl}</a
   >
   {countdown_event_string2_further2}
-</TextLine>
+</TextLine> -->
 
-<TextLineSmall>
+<!-- <TextLineSmall>
   ({countdown_event_string3_notif})
-</TextLineSmall>
+</TextLineSmall> -->
 
-<TextLine>
+<!-- <TextLine>
   {countdown_event_string5_faq1}
   <a href="/faq" class="text-[#1aa260] hover:text-[#4285f4] hover:underline">
     {countdown_event_string5_faq2}
   </a>
   {countdown_event_string5_faq3}
-</TextLine>
+</TextLine> -->
 
 <TextLine>
   {countdown_event_string8_validator1}<a
@@ -114,13 +114,13 @@
   >{countdown_event_string8_validator3}
 </TextLine>
 
-<TextLine>
+<!-- <TextLine>
   {countdown_event_string10_group1}<a
     href="{countdown_event_string10_url}"
     class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
     >{countdown_event_string10_group2}</a
   >{countdown_event_string10_group3}
-</TextLine>
+</TextLine> -->
 
 <TextLine>
   {countdown_event_string11_group1}<a

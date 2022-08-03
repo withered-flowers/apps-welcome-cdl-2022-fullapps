@@ -99,7 +99,7 @@
       </div>
       <div>
         <a
-          href="https://komin.fo/cdl1-submission"
+          href="https://komin.fo/cdl3-submission"
           class="text-[#1aa260] hover:text-[#4285f4] hover:underline"
           >CDL Submission</a
         >
