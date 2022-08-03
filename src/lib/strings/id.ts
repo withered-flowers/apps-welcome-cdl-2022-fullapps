@@ -36,7 +36,7 @@ export let countdown_event_string10_url: string = `https://discord.com/invite/bM
 export let countdown_event_string11_group1: string = `Takut bila situs ini mengambil data Anda? Tenang, kode situs ini bisa dilihat di  `;
 export let countdown_event_string11_group2: string = `Github Repository`;
 export let countdown_event_string11_group3: string = ` untuk dilihat lebih lanjut.`;
-export let countdown_event_string11_url: string = `https://github.com/withered-flowers/apps-welcome-cdl-2022-fullapps`;
+export let countdown_event_string11_url: string = `https://github.com/withered-flowers/apps-welcome-cdl-2022-fullapps/tree/batch-2`;
 
 export let faq_string1: string = `Pertanyaan Umum`;
 export let faq_string2_back_to_home: string = `Kembali ke Halaman Utama`;
